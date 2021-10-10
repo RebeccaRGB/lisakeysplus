@@ -1,0 +1,112 @@
+#ifndef MATRIXCONFIG_H
+#define MATRIXCONFIG_H
+
+// ItsyBitsy 32u4 A1
+#define MTX_CATHODE_1_DDR  DDRF
+#define MTX_CATHODE_1_PORT PORTF
+#define MTX_CATHODE_1_PIN  PINF
+#define MTX_CATHODE_1_MASK (1<<6)
+
+// ItsyBitsy 32u4 A3
+#define MTX_CATHODE_2_DDR  DDRF
+#define MTX_CATHODE_2_PORT PORTF
+#define MTX_CATHODE_2_PIN  PINF
+#define MTX_CATHODE_2_MASK (1<<4)
+
+// ItsyBitsy 32u4 A5
+#define MTX_CATHODE_3_DDR  DDRF
+#define MTX_CATHODE_3_PORT PORTF
+#define MTX_CATHODE_3_PIN  PINF
+#define MTX_CATHODE_3_MASK (1<<0)
+
+// ItsyBitsy 32u4 SCK
+#define MTX_CATHODE_4_DDR  DDRB
+#define MTX_CATHODE_4_PORT PORTB
+#define MTX_CATHODE_4_PIN  PINB
+#define MTX_CATHODE_4_MASK (1<<1)
+
+// ItsyBitsy 32u4 MOSI
+#define MTX_CATHODE_5_DDR  DDRB
+#define MTX_CATHODE_5_PORT PORTB
+#define MTX_CATHODE_5_PIN  PINB
+#define MTX_CATHODE_5_MASK (1<<2)
+
+// ItsyBitsy 32u4 A4
+#define MTX_CATHODE_6_DDR  DDRF
+#define MTX_CATHODE_6_PORT PORTF
+#define MTX_CATHODE_6_PIN  PINF
+#define MTX_CATHODE_6_MASK (1<<1)
+
+// ItsyBitsy 32u4 A2
+#define MTX_CATHODE_7_DDR  DDRF
+#define MTX_CATHODE_7_PORT PORTF
+#define MTX_CATHODE_7_PIN  PINF
+#define MTX_CATHODE_7_MASK (1<<5)
+
+// ItsyBitsy 32u4 A0
+#define MTX_CATHODE_8_DDR  DDRF
+#define MTX_CATHODE_8_PORT PORTF
+#define MTX_CATHODE_8_PIN  PINF
+#define MTX_CATHODE_8_MASK (1<<7)
+
+// ItsyBitsy 32u4 D11
+#define MTX_ANODE_A_DDR  DDRB
+#define MTX_ANODE_A_PORT PORTB
+#define MTX_ANODE_A_PIN  PINB
+#define MTX_ANODE_A_MASK (1<<7)
+
+// ItsyBitsy 32u4 D9
+#define MTX_ANODE_B_DDR  DDRB
+#define MTX_ANODE_B_PORT PORTB
+#define MTX_ANODE_B_PIN  PINB
+#define MTX_ANODE_B_MASK (1<<5)
+
+// ItsyBitsy 32u4 D7
+#define MTX_ANODE_C_DDR  DDRE
+#define MTX_ANODE_C_PORT PORTE
+#define MTX_ANODE_C_PIN  PINE
+#define MTX_ANODE_C_MASK (1<<6)
+
+// ItsyBitsy 32u4 D10
+#define MTX_ANODE_D_DDR  DDRB
+#define MTX_ANODE_D_PORT PORTB
+#define MTX_ANODE_D_PIN  PINB
+#define MTX_ANODE_D_MASK (1<<6)
+
+// ItsyBitsy 32u4 D12
+#define MTX_ANODE_E_DDR  DDRD
+#define MTX_ANODE_E_PORT PORTD
+#define MTX_ANODE_E_PIN  PIND
+#define MTX_ANODE_E_MASK (1<<6)
+
+// ItsyBitsy 32u4 D2/SDA
+#define MTX_ANODE_F_DDR  DDRD
+#define MTX_ANODE_F_PORT PORTD
+#define MTX_ANODE_F_PIN  PIND
+#define MTX_ANODE_F_MASK (1<<1)
+
+// ItsyBitsy 32u4 D3/SCL
+#define MTX_ANODE_G_DDR  DDRD
+#define MTX_ANODE_G_PORT PORTD
+#define MTX_ANODE_G_PIN  PIND
+#define MTX_ANODE_G_MASK (1<<0)
+
+// ItsyBitsy 32u4 D4
+#define MTX_ANODE_H_DDR  DDRD
+#define MTX_ANODE_H_PORT PORTD
+#define MTX_ANODE_H_PIN  PIND
+#define MTX_ANODE_H_MASK (1<<4)
+
+// ItsyBitsy 32u4 D6
+#define MTX_ANODE_J_DDR  DDRD
+#define MTX_ANODE_J_PORT PORTD
+#define MTX_ANODE_J_PIN  PIND
+#define MTX_ANODE_J_MASK (1<<7)
+
+// ItsyBitsy 32u4 D8
+#define MTX_ANODE_K_DDR  DDRB
+#define MTX_ANODE_K_PORT PORTB
+#define MTX_ANODE_K_PIN  PINB
+#define MTX_ANODE_K_MASK (1<<4)
+
+#endif
