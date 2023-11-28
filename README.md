@@ -21,7 +21,13 @@ This repository is still a work in progress. The timing on the keyboard controll
 ## Stuff to Make
 * 1x keyboard matrix PCB, made from the Gerber files in the `gerber` directory
 * 4x mounting brackets, 3D printed from the STL file in the `mounting-bracket` directory
-* a set of keycaps, made from the templates in the `keycaps` directory (more details below)
+* a set of keycaps, made from the templates in the `keycaps` directory (more details needed)
+    * The hardest to get will be the 6.5u spacebar and the 1.5u backspace. Max Keyboards will make custom sets with a 6.5u spacebar. I haven't found a source for 1.5u backspace yet. You can use a 1.5u backslash key, but the profile will be wrong.
+    * You will need a 1u backslash key.
+    * The 1.75u return key can be made from a 1.75u caps lock key.
+    * You will need two 2.25u shift keys instead of a 2.25u shift key and a 2.75u shift key.
+    * For the bottom row, in addition to the 6.5u spacebar, you will need two 1u option keys, a 2u command key, and a 2u enter key. (The original keyboard had 1.5u command and enter keys and a 7.5u spacebar, but I shortened the spacebar to at least something obtainable.)
+    * Instead of num lock, /, *, -, and 2u tall +, the Lisa has clear, -, +, *, /, and comma, all 1u. Additionally, the +, *, /, and comma keys have a unique style of directional arrows on the bottom half of the key.
 
 ## Stuff to Do
 * Program the ItsyBitsy microcontroller with the Arduino sketch in the `lisakeysplus` directory
